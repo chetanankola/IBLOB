@@ -1,0 +1,47 @@
+http://mobiforge.com/developing/story/using-google-maps-android BEST!!
+
+Installation
+ Instal ANDROID SDK FIRST: http://developer.android.com/sdk/installing.html
+ Install ADT next : http://developer.android.com/sdk/eclipse-adt.html#installing
+ Install Eclipse latest java from eclipse.org/Downloads
+
+
+Useful
+Git tutorial for androidhttp://www.vogella.de/articles/Git/article.html
+Android Google map demo: http://www.vogella.de/articles/AndroidLocationAPI/article.html
+http://www.javacodegeeks.com/2010/09/android-location-based-services.html
+http://www.vogella.de/code/code.html
+Parsing json:http://www.ibm.com/developerworks/opensource/library/x-dataAndroid/index.html
+Android tutorial http://www.brighthub.com/mobile/google-android/articles/22017.aspx
+GSON: http://www.javacodegeeks.com/2011/01/android-json-parsing-gson-tutorial.html
+GSON API DOC: http://google-gson.googlecode.com/svn/trunk/gson/docs/javadocs/index.html
+
+
+
+keytool -list -alias iblob -keystore blobkey.keystore
+
+
+password same as what is used for Oracle
+
+MD5:
+
+3F:6E:B1:CF:89:06:FE:91:10:1E:AC:79:95:D5:2F:E6
+
+
+
+GOOGLE API KEY:************************
+
+
+Your key is:
+0rzTeTpRpyxo7UbWsVmShmgwRl-CYFGrDU6YX1Q
+
+This key is good for all apps signed with your certificate whose fingerprint is:
+3F:6E:B1:CF:89:06:FE:91:10:1E:AC:79:95:D5:2F:E6
+
+Here is an example xml layout to get you started on your way to mapping glory:
+              <com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0rzTeTpRpyxo7UbWsVmShmgwRl-CYFGrDU6YX1Q"
+                 />
+            
